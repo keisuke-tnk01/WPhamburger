@@ -509,7 +509,7 @@ body {
 @media (min-width: 769px) {
   .p-search__form {
     float: right;
-    /*display: inline-block;*/
+    display: inline-block;
     margin-top: 8.6rem;
     margin-right: 3rem;
   }
@@ -555,14 +555,14 @@ body {
   }
 }
 
-/*.p-main__container {
+.p-main__container {
   /*レスポンシブ　tablet PC*/
   /*@if $point == wide {
         @media ( min-width: 961px ) {
             @content ;
         }
-    }
-}*/
+    }*/
+}
 
 @media (min-width: 641px) {
   .p-main__container {
@@ -1391,13 +1391,13 @@ body {
   }
 }
 
-/*.c-page__logo {
-  @if $point == wide {
+.c-page__logo {
+  /*@if $point == wide {
         @media ( min-width: 961px ) {
             @content ;
         }
-    }
-}*/
+    }*/
+}
 
 @media (min-width: 641px) {
   .c-page__logo {
